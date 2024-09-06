@@ -30,7 +30,7 @@
     }
 
     25% {
-        left: 500px;
+        left: 1100px;
     }
 
     50% {
@@ -77,11 +77,11 @@
 
 @keyframes moveblueX {
     0% {
-        left: 0;
+        left: 700px;
     }
 
     25% {
-        left: -100px;
+        left: 900px;
     }
 
     50% {
@@ -93,17 +93,17 @@
     }
 
     100% {
-        left: 0;
+        left: 700px;
     }
 }
 
 @keyframes moveblueY {
     0% {
-        top: 0;
+        top: 300px;
     }
 
     25% {
-        top: 100px;
+        top: 0px;
     }
 
     50% {
@@ -115,7 +115,7 @@
     }
 
     100% {
-        top: 0;
+        top: 300px;
     }
 }
 
@@ -124,12 +124,11 @@
     position: relative;
     animation: pinkX 15s infinite linear, pinkY 15s infinite linear;
     background-color: #d63384;
-    /* Pink color */
 }
 
 @keyframes pinkX {
     0% {
-        left: 0;
+        left: 900px;
     }
 
     25% {
@@ -141,11 +140,11 @@
     }
 
     75% {
-        left: 900px;
+        left: 0px;
     }
 
     100% {
-        left: 0;
+        left: 900px;
     }
 }
 
@@ -185,15 +184,15 @@
     }
 
     25% {
-        left: -400px;
+        left: 100px;
     }
 
     50% {
-        left: 700px;
+        left: 0;
     }
 
     75% {
-        left: 0px;
+        left: -400px;
     }
 
     100% {
@@ -203,11 +202,11 @@
 
 @keyframes greenY {
     0% {
-        top: 0;
+        top: 400px;
     }
 
     25% {
-        top: 400px;
+        top: 300px;
     }
 
     50% {
@@ -215,11 +214,11 @@
     }
 
     75% {
-        top: 400px;
+        top: 100px;
     }
 
     100% {
-        top: 0;
+        top: 400px;
     }
 }
 
@@ -266,7 +265,7 @@
     }
 
     75% {
-        top: 300px;
+        top: 150px;
     }
 
     100% {
@@ -287,7 +286,7 @@
     }
 
     25% {
-        left: -200px;
+        left: 200px;
     }
 
     50% {
@@ -334,7 +333,7 @@
 
 @keyframes orangeX {
     0% {
-        left: 0;
+        left: -700px;
     }
 
     25% {
@@ -346,21 +345,21 @@
     }
 
     75% {
-        left: 00px;
+        left: -500px;
     }
 
     100% {
-        left: 0;
+        left: -700px;
     }
 }
 
 @keyframes orangeY {
     0% {
-        top: 0;
+        top: 300px;
     }
 
     25% {
-        top: 300px;
+        top: 0px;
     }
 
     50% {
@@ -372,7 +371,7 @@
     }
 
     100% {
-        top: 0;
+        top: 300px;
     }
 }
 
