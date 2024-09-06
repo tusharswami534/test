@@ -1,0 +1,390 @@
+.container::after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    backdrop-filter: blur(100px);
+}
+
+.w-h-100 {
+    width: 100px !important;
+    height: 100px !important;
+}
+
+.w-h-200 {
+    width: 200px !important;
+    height: 200px !important;
+}
+
+.red_box {
+    border-radius: 50%;
+    animation: moveX 15s infinite, moveY 15s infinite;
+    position: relative;
+    background-color: #dc3545;
+    
+}
+
+@keyframes moveX {
+    0% {
+        left: 0;
+    }
+
+    25% {
+        left: 500px;
+    }
+
+    50% {
+        left: 700px;
+    }
+
+    75% {
+        left: 1200px;
+    }
+
+    100% {
+        left: 0px;
+    }
+}
+
+@keyframes moveY {
+    0% {
+        top: 0;
+    }
+
+    25% {
+        top: 400px;
+    }
+
+    50% {
+        top: 0;
+    }
+
+    75% {
+        top: 400px;
+    }
+
+    100% {
+        top: 0;
+    }
+}
+
+.blue_box {
+    border-radius: 50%;
+    position: relative;
+    animation: moveblueX 15s infinite linear, moveblueY 15s infinite linear;
+    background-color: #007bff;
+}
+
+@keyframes moveblueX {
+    0% {
+        left: 0;
+    }
+
+    25% {
+        left: -100px;
+    }
+
+    50% {
+        left: 400px;
+    }
+
+    75% {
+        left: 100px;
+    }
+
+    100% {
+        left: 0;
+    }
+}
+
+@keyframes moveblueY {
+    0% {
+        top: 0;
+    }
+
+    25% {
+        top: 100px;
+    }
+
+    50% {
+        top: 300px;
+    }
+
+    75% {
+        top: 100px;
+    }
+
+    100% {
+        top: 0;
+    }
+}
+
+.pink_box {
+    border-radius: 50%;
+    position: relative;
+    animation: pinkX 15s infinite linear, pinkY 15s infinite linear;
+    background-color: #d63384;
+    /* Pink color */
+}
+
+@keyframes pinkX {
+    0% {
+        left: 0;
+    }
+
+    25% {
+        left: 1200px;
+    }
+
+    50% {
+        left: 700px;
+    }
+
+    75% {
+        left: 0;
+    }
+
+    100% {
+        left: 0;
+    }
+}
+
+@keyframes pinkY {
+    0% {
+        top: 0;
+    }
+
+    25% {
+        top: -300px;
+    }
+
+    50% {
+        top: 100px;
+    }
+
+    75% {
+        top: -300px;
+    }
+
+    100% {
+        top: 0;
+    }
+}
+
+.green_box {
+    border-radius: 50%;
+    position: relative;
+    animation: greenX 15s infinite linear, greenY 15s infinite linear;
+    background-color: #198754;
+    /* Green color */
+}
+
+@keyframes greenX {
+    0% {
+        left: 0;
+    }
+
+    25% {
+        left: 300px;
+    }
+
+    50% {
+        left: 800px;
+    }
+
+    75% {
+        left: 1300px;
+    }
+
+    100% {
+        left: 0;
+    }
+}
+
+@keyframes greenY {
+    0% {
+        top: 0;
+    }
+
+    25% {
+        top: 200px;
+    }
+
+    50% {
+        top: 0;
+    }
+
+    75% {
+        top: -200px;
+    }
+
+    100% {
+        top: 0;
+    }
+}
+
+.yellow_box {
+    border-radius: 50%;
+    position: relative;
+    animation: yellowX 15s infinite linear, yellowY 15s infinite linear;
+    background-color: #ffc107;
+    /* Yellow color */
+}
+
+@keyframes yellowX {
+    0% {
+        left: 0;
+    }
+
+    25% {
+        left: 150px;
+    }
+
+    50% {
+        left: 600px;
+    }
+
+    75% {
+        left: 900px;
+    }
+
+    100% {
+        left: 0;
+    }
+}
+
+@keyframes yellowY {
+    0% {
+        top: 0;
+    }
+
+    25% {
+        top: -200px;
+    }
+
+    50% {
+        top: 150px;
+    }
+
+    75% {
+        top: -200px;
+    }
+
+    100% {
+        top: 0;
+    }
+}
+
+/* New circles */
+.purple_box {
+    border-radius: 50%;
+    position: relative;
+    animation: purpleX 15s infinite linear, purpleY 15s infinite linear;
+    background-color: #6f42c1;
+    /* Purple color */
+}
+
+@keyframes purpleX {
+    0% {
+        left: 0;
+    }
+
+    25% {
+        left: 300px;
+    }
+
+    50% {
+        left: 600px;
+    }
+
+    75% {
+        left: 900px;
+    }
+
+    100% {
+        left: 0;
+    }
+}
+
+@keyframes purpleY {
+    0% {
+        top: 0;
+    }
+
+    25% {
+        top: 100px;
+    }
+
+    50% {
+        top: -100px;
+    }
+
+    75% {
+        top: 100px;
+    }
+
+    100% {
+        top: 0;
+    }
+}
+
+.orange_box {
+    border-radius: 50%;
+    position: relative;
+    animation: orangeX 15s infinite linear, orangeY 15s infinite linear;
+    background-color: #fd7e14;
+    /* Orange color */
+}
+
+@keyframes orangeX {
+    0% {
+        left: 0;
+    }
+
+    25% {
+        left: 600px;
+    }
+
+    50% {
+        left: 1200px;
+    }
+
+    75% {
+        left: 1800px;
+    }
+
+    100% {
+        left: 0;
+    }
+}
+
+@keyframes orangeY {
+    0% {
+        top: 0;
+    }
+
+    25% {
+        top: 300px;
+    }
+
+    50% {
+        top: -150px;
+    }
+
+    75% {
+        top: 300px;
+    }
+
+    100% {
+        top: 0;
+    }
+}
+
+.min_500px {
+    min-height: 500px;
+}
+
+.blur {
+    backdrop-filter: blur(4px);
+    background-color: rgba(255, 255, 255, 0.4);
+}
