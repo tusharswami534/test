@@ -21,7 +21,7 @@
     animation: moveX 15s infinite, moveY 15s infinite;
     position: relative;
     background-color: #dc3545;
-    
+
 }
 
 @keyframes moveX {
@@ -133,15 +133,15 @@
     }
 
     25% {
-        left: 1200px;
+        left: 100px;
     }
 
     50% {
-        left: 700px;
+        left: -300px;
     }
 
     75% {
-        left: 0;
+        left: 900px;
     }
 
     100% {
@@ -155,15 +155,15 @@
     }
 
     25% {
-        top: -300px;
+        top: 400px;
     }
 
     50% {
-        top: 100px;
+        top: 200px;
     }
 
     75% {
-        top: -300px;
+        top: 400px;
     }
 
     100% {
@@ -176,7 +176,7 @@
     position: relative;
     animation: greenX 15s infinite linear, greenY 15s infinite linear;
     background-color: #198754;
-    /* Green color */
+
 }
 
 @keyframes greenX {
@@ -185,15 +185,15 @@
     }
 
     25% {
-        left: 300px;
+        left: -400px;
     }
 
     50% {
-        left: 800px;
+        left: 700px;
     }
 
     75% {
-        left: 1300px;
+        left: 0px;
     }
 
     100% {
@@ -207,15 +207,15 @@
     }
 
     25% {
-        top: 200px;
+        top: 400px;
     }
 
     50% {
-        top: 0;
+        top: 200px;
     }
 
     75% {
-        top: -200px;
+        top: 400px;
     }
 
     100% {
@@ -228,7 +228,6 @@
     position: relative;
     animation: yellowX 15s infinite linear, yellowY 15s infinite linear;
     background-color: #ffc107;
-    /* Yellow color */
 }
 
 @keyframes yellowX {
@@ -237,15 +236,15 @@
     }
 
     25% {
-        left: 150px;
+        left: -500px;
     }
 
     50% {
-        left: 600px;
+        left: 0;
     }
 
     75% {
-        left: 900px;
+        left: 600px;
     }
 
     100% {
@@ -259,15 +258,15 @@
     }
 
     25% {
-        top: -200px;
+        top: 300px;
     }
 
     50% {
-        top: 150px;
+        top: 0px;
     }
 
     75% {
-        top: -200px;
+        top: 300px;
     }
 
     100% {
@@ -275,13 +274,11 @@
     }
 }
 
-/* New circles */
 .purple_box {
     border-radius: 50%;
     position: relative;
     animation: purpleX 15s infinite linear, purpleY 15s infinite linear;
     background-color: #6f42c1;
-    /* Purple color */
 }
 
 @keyframes purpleX {
@@ -290,15 +287,15 @@
     }
 
     25% {
-        left: 300px;
+        left: -200px;
     }
 
     50% {
-        left: 600px;
+        left: -700px;
     }
 
     75% {
-        left: 900px;
+        left: 100px;
     }
 
     100% {
@@ -312,15 +309,15 @@
     }
 
     25% {
-        top: 100px;
+        top: 400px;
     }
 
     50% {
-        top: -100px;
+        top: 00px;
     }
 
     75% {
-        top: 100px;
+        top: 400px;
     }
 
     100% {
@@ -333,7 +330,6 @@
     position: relative;
     animation: orangeX 15s infinite linear, orangeY 15s infinite linear;
     background-color: #fd7e14;
-    /* Orange color */
 }
 
 @keyframes orangeX {
@@ -342,15 +338,15 @@
     }
 
     25% {
-        left: 600px;
+        left: 100px;
     }
 
     50% {
-        left: 1200px;
+        left: 200px;
     }
 
     75% {
-        left: 1800px;
+        left: 00px;
     }
 
     100% {
@@ -368,7 +364,7 @@
     }
 
     50% {
-        top: -150px;
+        top: 200px;
     }
 
     75% {
